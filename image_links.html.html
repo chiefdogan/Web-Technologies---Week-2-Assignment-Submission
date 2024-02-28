@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .menu li {
+            margin-bottom: 20px;
+            width: 30%;
+        }
+        .menu img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu img:hover {
+            transform: scale(1.05);
+        }
+        .menu p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image Links</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our technology section!</p>
+        <div class="gallery">
+            <a href="https://media.istockphoto.com/id/1483272796/photo/seminar-coding-talking.webp?b=1&s=612x612&w=0&k=20&c=sFcOxj3nOhzG2PwnulEqtJmw16_X8B1yNG3BRqp11jg=">
+                <img src="https://media.istockphoto.com/id/1483272796/photo/seminar-coding-talking.webp?b=1&s=612x612&w=0&k=20&c=sFcOxj3nOhzG2PwnulEqtJmw16_X8B1yNG3BRqp11jg=" alt="Coding Seminar">
+            </a>
+            <a href="https://media.istockphoto.com/id/1439425791/photo/digital-technology-software-development-concept-coding-programmer-working-on-laptop-with.webp?b=1&s=612x612&w=0&k=20&c=HNqkJOBc7L4Y82dHwV8TfmyMCcYfMO99w2fSKr-mTLs=">
+                <img src="https://media.istockphoto.com/id/1439425791/photo/digital-technology-software-development-concept-coding-programmer-working-on-laptop-with.webp?b=1&s=612x612&w=0&k=20&c=HNqkJOBc7L4Y82dHwV8TfmyMCcYfMO99w2fSKr-mTLs=" alt="Developer at Work">
+            </a>
+            <a href="https://media.istockphoto.com/id/1455755410/photo/portrait-of-early-20s-female-stem-student.webp?b=1&s=612x612&w=0&k=20&c=relcvkREyX8H3qnbfyII9GuiZn2B3OcgYlrAH7c4iWw=">
+                <img src="https://media.istockphoto.com/id/1455755410/photo/portrait-of-early-20s-female-stem-student.webp?b=1&s=612x612&w=0&k=20&c=relcvkREyX8H3qnbfyII9GuiZn2B3OcgYlrAH7c4iWw=" alt="STEM Student">
+            </a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <a href="https://media.istockphoto.com/id/1082411378/photo/magical-fairytale-forest.jpg?s=612x612&w=0&k=20&c=3iw53YdeeFEqRuxcUL0UCQZUMJ3e2IRtUfvgSjAysjQ=">
+                <img src="https://media.istockphoto.com/id/1082411378/photo/magical-fairytale-forest.jpg?s=612x612&w=0&k=20&c=3iw53YdeeFEqRuxcUL0UCQZUMJ3e2IRtUfvgSjAysjQ=" alt="Magical Forest">
+            </a>
+            <a href="https://media.istockphoto.com/id/474267374/photo/reflections-on-a-lake.jpg?s=612x612&w=0&k=20&c=cqzsN4ldAbOywiM3Bf2lDf0wAsSUgzUHs_1Q-0ncIl8=">
+                <img src="https://media.istockphoto.com/id/474267374/photo/reflections-on-a-lake.jpg?s=612x612&w=0&k=20&c=cqzsN4ldAbOywiM3Bf2lDf0wAsSUgzUHs_1Q-0ncIl8=" alt="Reflections on a Lake">
+            </a>
+            <a href="https://media.istockphoto.com/id/1159094800/photo/mother-father-children-son-and-daughter-on-sunset.jpg?s=612x612&w=0&k=20&c=D7jhSvfz3XbqqI4xBcAv-JeXwVbzg0tgBUHrwKfWRFc=">
+                <img src="https://media.istockphoto.com/id/1159094800/photo/mother-father-children-son-and-daughter-on-sunset.jpg?s=612x612&w=0&k=20&c=D7jhSvfz3XbqqI4xBcAv-JeXwVbzg0tgBUHrwKfWRFc=" alt="Family at Sunset">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li>
+                <a href="https://images.freeimages.com/images/large-previews/b79/pizza-1562028.jpg?fmt=webp&w=500">
+                    <img src="https://images.freeimages.com/images/large-previews/b79/pizza-1562028.jpg?fmt=webp&w=500" alt="Pizza">
+                </a>
+                <p>Pizza</p>
+            </li>
+            <li>
+                <a href="https://media.istockphoto.com/id/637885986/photo/traditional-african-food-ugali-fish-and-greens.webp?b=1&s=612x612&w=0&k=20&c=LxH1B7u21Miu9TRYp-rxjIvGz7PUYj8DmBuoKBs9oNI=">
+                    <img src="https://media.istockphoto.com/id/637885986/photo/traditional-african-food-ugali-fish-and-greens.webp?b=1&s=612x612&w=0&k=20&c=LxH1B7u21Miu9TRYp-rxjIvGz7PUYj8DmBuoKBs9oNI=" alt="Ugali and Fish">
+                </a>
+                <p>Ugali and Fish</p>
+            </li>
+            <li>
+                <a href="https://media.istockphoto.com/id/1495546826/photo/mutton-kabuli-pulao-served-in-dish-isolated-on-background-top-view-of-indian-spices-and.webp?b=1&s=612x612&w=0&k=20&c=3eTg6bgaPzDca64lBU06u-g92dRcM5BbI0UuN0O1WiU=">
+                    <img src="https://media.istockphoto.com/id/1495546826/photo/mutton-kabuli-pulao-served-in-dish-isolated-on-background-top-view-of-indian-spices-and.webp?b=1&s=612x612&w=0&k=20&c=3eTg6bgaPzDca64lBU06u-g92dRcM5BbI0UuN0O1WiU=" alt="Rice Biryani">
+                </a>
+                <p>Rice Biryani</p>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
