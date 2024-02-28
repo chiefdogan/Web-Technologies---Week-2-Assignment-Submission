@@ -13,6 +13,6 @@ Menu: List food items, and each item should be linked to an image related to tha
 
 
 
-Note: Feel free to use Chat Gpt prompts or google to build these features.
+
 
 
